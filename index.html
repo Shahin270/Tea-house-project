@@ -11,6 +11,7 @@
   <!-- font awesome -->
   <script src="https://kit.fontawesome.com/4751105b56.js" crossorigin="anonymous"></script>
   <script src="https://cdn.tailwindcss.com"></script>
+   <!-- config -->
   <script>
     tailwind.config = {
       theme: {
@@ -24,11 +25,38 @@
   </script>
 </head>
 <body>
-  <header>
-    <div>
+  <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+<header class="flex">
+  <div>
+    <h1 class="text-5xl md:text-7xl font-medium">It's good <br>
+      tea time at The <br>Tea House</h1>
+      <p class="text-gray-500 w-3/4">
+        Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+      </p>
+      <button class=" class= bg-gradient-to-r from-[#FF8938] to-[#FF0000]  px-5 py-3 rounded-lg text-white font-bold">Explore More <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i></button>
 
-    </div>
-  </header>
+  </div>
+  <div class="relative">
+      <div>
+      <img class="w-full" src="images/banner.png" alt="">
+      </div>
+      <div class="flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg absolute top-28 md:top-80 md:left-28 lg:left-28">
+        <div>
+          <i class="fa-solid fa-star text-2xl text-amber-500"></i>
+        </div>
+        <div class="ml-2">
+          <h2 class="lg:text-2xl font-bold">5.00</h2>
+          <p class="text-gray-500">Trust Pilot Rating</p>
+        </div>
+      </div>
+
+  </div>
+
+ 
+</header>
+
+
+  </main>
   
 </body>
 </html>
